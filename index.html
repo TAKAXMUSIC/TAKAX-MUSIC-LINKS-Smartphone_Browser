@@ -13,6 +13,18 @@
                 /* ↓ ページの縦の長さ ↓ vh */
                 min-height      : 150vh;
             }
+            .blink {
+                -webkit-animation: blink 1s ease-in-out infinite;
+                animation: blink 1.5s ease-in-out infinite;
+            }
+            @-webkit-keyframes blink {
+                0% {opacity: 0;}
+                100% {opacity: 1;}
+            }
+            @keyframes blink {
+                0% {opacity: 0;}
+                100% {opacity: 1;}
+            }
             .under {
                 background: linear-gradient(transparent 40%, #92e0ff7f 50%);
             }
@@ -76,7 +88,7 @@
         <title>TAKAX MUSIC WEB</title>
         </div>
 
-        <div class="top" style="text-align:center">
+        <!-- <div class="top" style="text-align:center">
             <b><font size="8">About <a href="https://www.youtube.com/channel/UC7hE2BE8Cf-7aqFawvWrHxQ" target="_blank"><span style="color:rgb(0, 162, 255)">TAKAX MUSIC</span></font></a></b>
             <font size="4"><span style="color:rgb(0, 172, 17)">←Tap!</span></font><br>
             ■DTMer ■Composer ■Original Music<br>
@@ -88,39 +100,52 @@
                 from <a href="https://soundcloud.com/takax-music" target="_blank"><b><span style="color:rgb(0, 162, 255)">SoundCloud</span></b></a><font size="4"><span style="color:rgb(0, 172, 17)"> ←Tap!</span></font><br>
             <font size="3"><a href="https://takaxmusic.github.io/TAKAX-MUSIC-LINKS-PC-Browser/" target="_blank">【Go to PC Browser】</a></font><br>
             </div>
-        <br>
+        <br> -->
 
         <div class="info">
         <div style="text-align:center">
         ◆ How to use this page ◆<br>
         You can tap the Title and jump to the Page!<br>
         ▼ Tap this title ▼<br>
-        → 1. <a href="https://www.youtube.com/channel/UC7hE2BE8Cf-7aqFawvWrHxQ" target="_blank"><span class="takax">TAKAX MUSIC</span></a> ←<br>
-        <br>
+        <div class="blink"><a href="https://www.youtube.com/channel/UC7hE2BE8Cf-7aqFawvWrHxQ" target="_blank"><span class="takax">TAKAX MUSIC</span></a></div><br>
         <span style="color:rgb(0, 192, 22)">✦ New Upload ✦</span><br>
-        ▶ <a href="https://www.youtube.com/watch?v=GSc4nudIrOA" target="_blank"><span class="new" style="color: rgb(0, 215, 25)">The Winter</span></a> ◀<br>
-        <br>
+        <div class="blink"><a href="https://www.youtube.com/watch?v=GSc4nudIrOA" target="_blank"><span class="new" style="color: rgb(0, 215, 25)">The Winter</span></a></div><br>
+
     </div>
 </div>
 
 <div class="bgc">
     
+    
+    <h2 class="title" style="text-align:center"><b><a name="TAKAX MUISC">TAKAX MUISC</a></b></h2>
+    <div class="top" style="text-align:center">
+        <b><font size="8">About <a href="https://www.youtube.com/channel/UC7hE2BE8Cf-7aqFawvWrHxQ" target="_blank"><span style="color:rgb(0, 162, 255)">TAKAX MUSIC</span></font></a></b>
+        <font size="4"><span style="color:rgb(0, 172, 17)">←Tap here!</span></font><br>
+        ■DTMer ■Composer ■Original Music<br>
+        <font size="4">*DTMer: Desktop Music / Musician</font><br>
+        Making more than  <span class="under">50 original music<br>
+            (including " free to use ")</span><br>
+            as a hobby<br>
+            You can also check with High Quality and Download<br>
+            from <a href="https://soundcloud.com/takax-music" target="_blank"><b><span style="color:rgb(0, 162, 255)">SoundCloud</span></b></a><font size="4"><span style="color:rgb(0, 172, 17)"> ←Tap here!</span></font><br>
+            <font size="3"><a href="https://takaxmusic.github.io/TAKAX-MUSIC-LINKS-PC-Browser/" target="_blank">【Go to PC Browser】</a></font><br>
+        </div>
         <h2 class="title" style="text-align:center"><a name="Library"><b>Library</b></h2>
             <div class="list">
-        <ul>
-            <li><a href="#Beat Music">Beat Music</a></li>
-            <li><a href="#Lo-Fi Beats">Lo-Fi Beats</a></li>
-            <li><a href="#Wagakki - Shamisen Beats">Wagakki</a></li>
-            <li><a href="#Piano">Piano</a></li>
-            <li><a href="#Free To Use">Free To Use</a></li><br>
-            <li><a href="#Contact">Contact</a></li>
-
+                <ul>
+                    <li><a href="#Beat Music">Beat Music</a></li>
+                    <li><a href="#Lo-Fi Beats">Lo-Fi Beats</a></li>
+                    <li><a href="#Wagakki - Shamisen Beats">Wagakki</a></li>
+                    <li><a href="#Piano">Piano</a></li>
+                    <li><a href="#Free To Use">Free To Use</a></li><br>
+                    <li><a href="#Contact">Contact</a></li>
+                    
+                <br>
         </ul>
     </div>
-    
+        
         <!-- ↓ リスト本体 ↓ -->
-
-
+        
         <h2 class="title" style="text-align:center"><b><a name="Beat Music">Beat Music</a></b></h2>
         <div class="list">
         <ul>
